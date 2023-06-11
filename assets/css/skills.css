@@ -1,0 +1,33 @@
+:root {
+    --gradient: linear-gradient(
+      to right,
+      rgb(255 240 218),
+      rgb(135 2 152),
+      rgb(226 51 127)
+    )
+  }
+
+h1 {
+    color: white;
+}
+
+.lead.text-muted {
+    color: red;
+}
+
+.jumbotron {
+    background-image: linear-gradient(45deg, black, #3A014D);
+}
+
+.btn-secondary {
+    background-color: #152939;
+    border-color: #152939;
+    color: white;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #3A014D;
+    color: white;
+    transition: all .3s ease-in-out;
+  }

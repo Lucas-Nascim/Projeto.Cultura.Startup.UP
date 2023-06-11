@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+  --gradient: linear-gradient(
+    to right,
+    rgb(255 240 218),
+    rgb(135 2 152),
+    rgb(226 51 127)
+  )
+}
+
+body {
+  background-image: url('./assets/images/abstract-flowing-neon-wave-background\ 1.png');
+  /*background-image: linear-gradient(45deg, black, #3A014D);*/
+  background-repeat: no-repeat;
+  border-width: 0px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+#Bola {
+  position: absolute;
+  width: 331px;
+  height: 342.69px;
+  left: 608.67px;
+  top: 100.48px;
+  transform: rotate(49.38deg);
+}
+
+#Polygon {
+  /* Polygon 2 */
+
+
+position: absolute;
+width: 32.86px;
+height: 32.86px;
+left: 96.49px;
+top: 20.07px;
+border-radius: 4.48076px;
+transform: rotate(60deg);
+}
+
+#Personagem {
+/* Untitled design (20) 1 */
+position: absolute;
+width: 852.93px;
+height: 590.70px;
+left: 465.60px;
+top: 70.70px;
+filter: drop-shadow(9px 4.37027px 65.5541px #000000);
+transform: rotate(-2.56deg);
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/*nav */
+header {
+  /*background-color: #19253b59;*/
+  /*box-shadow: 0 0 36px 0;*/
+  backdrop-filter: blur(3px);
+  /*background-color: #152939;*/
+}
+
+nav {
+  /*background-color: #152939;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  padding: 1.2rem 0rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.logo h3 {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+li {
+  padding: 0rem 1.1rem;
+  float: left;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: .7px;
+}
+
+li a:hover {
+  color: #E2337F;
+  transition: all .3s ease-in-out
+}
+
+.button {
+  display: flex;
+  gap: 1rem;
+}
+
+.button button {
+  font-weight: 500;
+  color: #E2337F;
+  border: 2px solid #E2337F;
+  background-color: transparent;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #E2337F;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+.jumbotron {
+  padding: 6rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: aqua;
+  border-radius: 0.5rem;
+}
+
+.btn-success {
+  background-color: aqua;
+  border-radius: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #152939;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #fff;
+  color: #152939;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+#Cabecalho {
+  color: #E2337F;
+  font-size: 20px;
+  text-decoration: none;
+  display: grid;
+}
+
+.container {
+  background-image: var(--gradient);
+  text-align: left;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#logado {
+  font-size: 0.9rem;
+  color: #fff;
+  position: absolute;
+  width: 431px;
+  height: 342.69px;
+  left: 135.67px;
+  top: 45.48px;
+
+}
+
+
